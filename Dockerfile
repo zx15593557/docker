@@ -4,4 +4,6 @@ MAINTAINER zx
 
 WORKDIR "/tmp"
 
-run npm i
+RUN npm install
+
+RUN npm i
