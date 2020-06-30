@@ -16,4 +16,4 @@ RUN npm install
 
 RUN npm i
 
-RUN npm i ChromeDriver
+RUN npm install vue-ls
