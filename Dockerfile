@@ -16,3 +16,5 @@ RUN npm install
 RUN npm i
 
 RUN npm install vue-ls
+
+RUN cnpm install
