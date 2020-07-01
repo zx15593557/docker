@@ -11,7 +11,11 @@ RUN apt-get update && apt-get upgrade -y && \
     
 COPY ./package.json ./
 
+RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
+
 RUN npm install
+
+cnpm install -g vue-cli
 
 RUN npm i
 
